@@ -14,14 +14,16 @@
   align-items: center;
   .logo {
     padding: 38px 51px;
-    background: url(/static/img/logo.svg) no-repeat center (center / contain);
-    animation: spin 10s infinite linear;
-    display: block;  
+    background: url(/static/img/logo.svg) no-repeat center / contain;
+    animation: spin 15s infinite linear forwards;
   }
   .title {
     @include fontsize(35);
     padding: 12px 20px 10px;
     color:#fff;
+    @include media(mobile) {
+      @include fontsize(25);
+    }
   }
 
   @include media(tabletLrg) {
@@ -30,7 +32,7 @@
   }
 
   @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+    from {transform: rotate(0deg) }
+    to {transform: rotate(360deg) }
   }
 }

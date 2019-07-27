@@ -20,4 +20,9 @@ export const
     }
   },
   // Multi addEventListener, takes multiple parameters ('click load change etc')
-  listen     = (el, s, fn) => each(s.split(' '), e => el.addEventListener(e, fn, false))
+  listen     = (event, el, s, fn) => {
+    event = event === 'on' ? 'addEventListener' : 'removeEventListener'
+    each(s.split(' '), e => el[event](e, fn, false))
+  },
+
+  stripSlash = str => str.replace(/^\//, '').split('/')[0]

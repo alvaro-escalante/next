@@ -1,8 +1,6 @@
-import App from '../components/App'
 import Head from 'next/head'
 
 export default() => pug`
-App
   Head
     title A React JS SEO Experiment by Builtvisible
     meta(name='description', content='An SEO experiment designed and developed by Builtvisible, specialists in organic digital marketing.')

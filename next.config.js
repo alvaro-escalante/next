@@ -1,22 +1,38 @@
 const 
-dev = process.env.NODE_ENV === 'development',
+env = process.env.NODE_ENV,
 withSass = require('@zeit/next-sass'),
 withCSS = require("@zeit/next-css"),
 withPlugins = require('next-compose-plugins'),
 optimizedImages = require('next-optimized-images'),
-withPurgeCss = require('next-purgecss')
+withPurgeCss = require('next-purgecss'),
+nextConfig = { 
+	serverRuntimeConfig: {},
+	publicRuntimeConfig: {
+		DOMAIN: env === 'production' ? 'https://next.builtvisible.com' : 'http://localhost:3000'
+	},
+	onDemandEntries: {
+    // period (in ms) where the server will keep pages in the buffer
+    maxInactiveAge: 25 * 1000,
+    // number of pages that should be kept simultaneously without being disposed
+    pagesBufferLength: 4,
+  }
+}
 
-module.exports = withPlugins(
-	[optimizedImages],
+
+module.exports = withPlugins([
+	[optimizedImages, {
+		handleImages: ['jpg','jpeg', 'png', 'svg', 'webp', 'gif'],
+		optimizeImagesInDev: true
+	}],
 	withCSS(withSass({
-  	sassLoaderOptions: { sourceMap: dev },
-  	postcssLoaderOptions: { sourceMap: dev }
+  	sassLoaderOptions: { sourceMap: env === 'development' },
+  	postcssLoaderOptions: { 
+  		sourceMap: env === 'development'
+  	}
 	}),
-	withPurgeCss({
-		purgeCssEnabled: ({ dev, isServer }) => (!dev && !isServer)
-	}))
-)
+	withPurgeCss())
 
+], nextConfig)
 
 
 // withSourceMaps = require('@zeit/next-source-maps')()

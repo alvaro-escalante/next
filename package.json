@@ -2,16 +2,20 @@
   "name": "react-next",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "author": "Alvaro Fernandez",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "upstart": "next start -- -p 8080",
-    "prod": "pm2 start npm --name 'next' -- run upstart"
+    "serve": "NODE_ENV=production node server.js",
+    "prod": "pm2 start npm --name 'Next' -- run serve"
   },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ],
   "babel": {
     "presets": [
       [
@@ -39,10 +43,14 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "^9.6.1",
     "express": "^4.17.1",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "^9.0.2",
+    "next": "^9.0.3-canary.3",
+    "next-routes": "^1.4.2",
     "node-sass": "^4.12.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
