@@ -1,0 +1,64 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/lib/loader.js??ref--6-3!static/scss/styles.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/css-loader/index.js??ref--6-1!node_modules/postcss-loader/src/index.js??ref--6-2!node_modules/sass-loader/lib/loader.js??ref--6-3!static/scss/styles.scss 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/7v8gudK_imej924l1JWbc/pages/_app.js": 2,
+      "static/7v8gudK_imej924l1JWbc/pages/_error.js": 3,
+      "static/7v8gudK_imej924l1JWbc/pages/background.js": 4,
+      "static/7v8gudK_imej924l1JWbc/pages/builtvisible.js": 5,
+      "static/7v8gudK_imej924l1JWbc/pages/index.js": 6,
+      "static/7v8gudK_imej924l1JWbc/pages/resources.js": 7,
+      "static/7v8gudK_imej924l1JWbc/pages/resources/learn-react.js": 8,
+      "static/7v8gudK_imej924l1JWbc/pages/resources/learn-react/next-steps.js": 9,
+      "static/7v8gudK_imej924l1JWbc/pages/resources/seo.js": 10,
+      "static/7v8gudK_imej924l1JWbc/pages/what.js": 11,
+      "static/7v8gudK_imej924l1JWbc/pages/why.js": 12,
+      "static/runtime/main.js": 13,
+      "styles": 14
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

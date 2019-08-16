@@ -3588,15 +3588,80 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/Alvaro/Sites/react-next/pages/what.jsx";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "What is React JS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "What is React JS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     name: "description",
-    content: "React is a declarative flexible open-source JavaScript library designed to deal exclusively with the output of information."
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "What is React?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React, or ReactJS, is a declarative JavaScript library designed as an efficient, flexible route to building user interfaces. It is maintained by Facebook, instagram and a community of independent developers and businesses. It is open source and provides out of the box developer tools."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React offers the possibility of creating rich web applications delivering a fast and efficient experience. The basic idea is that components inform React about what you want to render. React will update and render only those components when your data changes."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React is often described in the same way as other Javascript frameworks but this is really misleading. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "React and Angular are not directly comparable entities."), "Where Angular is a complete framework, React is not. React is a declarative, flexible Javascript Library used to deal ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "exclusively with Views"), " \u2014 the output of information."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    content: "React is a declarative flexible open-source JavaScript library designed to deal exclusively with the output of information.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "What is React?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "React, or ReactJS, is a declarative JavaScript library designed as an efficient, flexible route to building user interfaces. It is maintained by Facebook, instagram and a community of independent developers and businesses. It is open source and provides out of the box developer tools."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "React offers the possibility of creating rich web applications delivering a fast and efficient experience. The basic idea is that components inform React about what you want to render. React will update and render only those components when your data changes."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "React is often described in the same way as other Javascript frameworks but this is really misleading. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "React and Angular are not directly comparable entities."), "Where Angular is a complete framework, React is not. React is a declarative, flexible Javascript Library used to deal ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "exclusively with Views"), " \u2014 the output of information."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./static/img/about-react.jpg",
-    alt: "What is React"
+    alt: "What is React",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
   }));
 });
 

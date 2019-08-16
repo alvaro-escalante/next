@@ -1,56 +1,47 @@
-import React, { Component } from 'react'
-import Links from './Links'
+import React, { useState, useEffect } from 'react'
+import Links from './Links' 
 import { caps, select, stripSlash, listen } from './Functions'
 import router from 'next/router'
 
 const pages = ['introduction', 'what', 'why', 'background', 'resources', 'builtvisible']
 
-export default class Nav extends Component { 
+export default props => {
 
-  state = {
-    mobileMenu: false,
-    menuOpen: false
-  }
-
-  componentDidMount() {
-    this.setState({ mobileMenu: window.innerWidth <= 950 })
-    listen('on', window, 'resize', this.handleResize)
-  }
-
-  componentWillUnmount() {
-    listen('off', window, 'resize', this.handleResize)
-  }
-
+  const 
+  [mobile, setMobile] = useState(false),
+  [menu, setMenu] = useState(false),
+  
   // toggle mobile menu, Check that mobile width is true
-  mobileToggle = () => this.setState({ menuOpen: !this.state.menuOpen })
+  mobileToggle = () => setMenu(!menu),
   
   // // Toggle mobile menu and check width
-  handleResize = () => this.setState({ menuOpen: false, mobileMenu: global.innerWidth <= 950 })
+  handleResize = () => {
+    setMenu(false)
+    setMobile(global.innerWidth <= 950)
+  }
 
-  render() {
+  useEffect(() => {
+    setMobile(window.innerWidth <= 950)
+    listen('on', window, 'resize', handleResize)
+  })  
 
-    const {mobileMenu, menuOpen} = this.state
-
-    return(
-    <div class='nav-wrap'>
-    { mobileMenu ? 
+  return <div class='nav-wrap'>
+    { mobile ? 
       <div>
-        <div class='nav-trigger' onClick={this.mobileToggle}> <span></span> </div>
+        <div class='nav-trigger' onClick={mobileToggle}> <span></span> </div>
         <span class='current'>
           {router.pathname  === `/` ? pages[0] : stripSlash(router.pathname)}
         </span>  
       </div> 
     : null }
       <div 
-        onClick={this.mobileToggle}
-        class={mobileMenu && menuOpen? `nav-mobile` : `nav hide`}>
+        onClick={mobileToggle}
+        class={mobile && menu? `nav-mobile` : `nav hide`}>
         { pages.map(page => 
-          <Links href={page === `introduction` ? `/` : `/${page}`} as={page} key={page}>
+          <Links key={page} href={page === `introduction` ? `/` : `/${page}`} as={page} >
             {caps(page)}
           </Links>
         )}
       </div>
     </div>
-    )
-  }
 }

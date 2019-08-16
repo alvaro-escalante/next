@@ -1,16 +1,12 @@
-// module.exports = { plugins: [ 
-//   require('postcss-easy-import')({prefix: '_'}), 
-//   require('autoprefixer')({}), 
-//   require('postcss-flexbugs-fixes')] 
-// }
-
-module.exports = (ctx) => {
-  const plugins = {
-    autoprefixer: {
-      ...ctx.options.autoprefixer,
-      flexbox: 'no-2009',
-    },
-  };
-
-  return { plugins };
-};
+if(process.env.NODE_ENV === 'production') {
+  module.exports = ctx => {
+    const plugins = {
+      autoprefixer: {
+        ...ctx.options.autoprefixer,
+        flexbox: 'no-2009'
+      },
+      cssnano: { preset: 'default' }
+    }
+    return { plugins } 
+  }
+}

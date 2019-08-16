@@ -1,0 +1,63 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/_app.jsx": 0,
+      "multi private-next-pages/_document.jsx": 1,
+      "multi private-next-pages/background.jsx": 2,
+      "multi private-next-pages/builtvisible.jsx": 3,
+      "multi private-next-pages/index.jsx": 4,
+      "multi private-next-pages/resources.jsx": 5,
+      "multi private-next-pages/resources/learn-react.jsx": 6,
+      "multi private-next-pages/resources/learn-react/next-steps.jsx": 7,
+      "multi private-next-pages/resources/seo.jsx": 8,
+      "multi private-next-pages/what.jsx": 9,
+      "multi private-next-pages/why.jsx": 10,
+      "multi next/dist/pages/_error": 11
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/7v8gudK_imej924l1JWbc/pages/_app.js": 0,
+      "static/7v8gudK_imej924l1JWbc/pages/_document.js": 1,
+      "static/7v8gudK_imej924l1JWbc/pages/_error.js": 2,
+      "static/7v8gudK_imej924l1JWbc/pages/background.js": 3,
+      "static/7v8gudK_imej924l1JWbc/pages/builtvisible.js": 4,
+      "static/7v8gudK_imej924l1JWbc/pages/index.js": 5,
+      "static/7v8gudK_imej924l1JWbc/pages/resources.js": 6,
+      "static/7v8gudK_imej924l1JWbc/pages/resources/learn-react.js": 7,
+      "static/7v8gudK_imej924l1JWbc/pages/resources/learn-react/next-steps.js": 8,
+      "static/7v8gudK_imej924l1JWbc/pages/resources/seo.js": 9,
+      "static/7v8gudK_imej924l1JWbc/pages/what.js": 10,
+      "static/7v8gudK_imej924l1JWbc/pages/why.js": 11
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

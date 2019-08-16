@@ -3588,26 +3588,113 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/Alvaro/Sites/react-next/pages/why.jsx";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Why Use React JS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "Why Use React JS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     name: "description",
-    content: "An opensource framework delivering fast, efficient and rich web applications with a variety of out the box developer tools."
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Why use React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The main advantage of React is how it updates the Document Object Model (DOM). Traditionally, web applications deal with the structure of the DOM directly, which is very slow. React creates a virtual DOM that will only update when required, making it fast and ideal for Single Page Applications."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Another great advantage of React is that it can be run on the server, thanks to its built-in server side rendering capabilities. This delivers a number of advantages:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "standard"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Server side rendering enables Google to crawl and index effectively, enabling SEO optimisation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Components can be reused and combined within React, keeping the code modular and flexible. This allows you to easily create interfaces and to efficiently manipulate the application state.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Additional advantages include:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "standard"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React is made of components with their own state that can be put together to build complex user interfaces."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "React also offers \u2018React Native\u2019, a technology that enables you to create mobile applications effortlessly for both Android and IOS.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    content: "An opensource framework delivering fast, efficient and rich web applications with a variety of out the box developer tools.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "Why use React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "The main advantage of React is how it updates the Document Object Model (DOM). Traditionally, web applications deal with the structure of the DOM directly, which is very slow. React creates a virtual DOM that will only update when required, making it fast and ideal for Single Page Applications."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Another great advantage of React is that it can be run on the server, thanks to its built-in server side rendering capabilities. This delivers a number of advantages:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "standard",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "Server side rendering enables Google to crawl and index effectively, enabling SEO optimisation."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Components can be reused and combined within React, keeping the code modular and flexible. This allows you to easily create interfaces and to efficiently manipulate the application state.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Additional advantages include:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "standard",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "React is made of components with their own state that can be put together to build complex user interfaces."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "React also offers \u2018React Native\u2019, a technology that enables you to create mobile applications effortlessly for both Android and IOS.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./static/img/react-render.jpg",
     alt: "React Server Side rendering",
-    className: "end-pic"
+    className: "end-pic",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
   }));
 });
 
 /***/ }),
 
-/***/ 4:
+/***/ 2:
 /*!****************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fwhy&absolutePagePath=%2FUsers%2FAlvaro%2FSites%2Freact-next%2Fpages%2Fwhy.jsx ***!
   \****************************************************************************************************************************/
@@ -3630,5 +3717,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=why.js.map
